@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../jasmine/lib/jasmine-2.7.0/jasmine_favicon.png"
+    />
+    <link rel="stylesheet" href="../jasmine/lib/jasmine-2.7.0/jasmine.css" />
+
+    <script src="../jasmine/lib/jasmine-2.7.0/jasmine.js"></script>
+    <script src="../jasmine/lib/jasmine-2.7.0/jasmine-html.js"></script>
+    <script src="../jasmine/lib/jasmine-2.7.0/boot.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      describe("hello world", () => {
+        //테스트 스윗: 테스트 유닛들의 모음
+        it("true is true", () => {
+          //테스트 유닛: 테스트 단위
+          expect(true).toBe(true); //매쳐: 검증자
+        });
+      });
+    </script>
+  </body>
+</html>
